@@ -14,18 +14,35 @@ public class Goal {
     public List<FamilyMember> goalFamilyMembers;
     public Date goalTargetDate;
     public Number goalTargetAmount;
-    public String goalStatus;
+    public String goalSetupStatus;
 
-    public GoalRealizationModel goalRealizationModel;
+    public List<GoalRealizationModel> goalRealizationModels;
     public String goalRealizationStatus;
 
-    public GoalRealizationModel suggestRealizationModel() {
+    public String goalImplementationStatus;
+
+    public List<GoalRealizationModel> suggestRealizationModels() {
         return null;
     }
 
-    public GoalRealizationModel assignRealizationModel(GoalRealizationModel goalRealizationModel) {
+    public GoalRealizationModel assignRealizationModel(List<GoalRealizationModel> goalRealizationModels) {
         return null;
     }
 
+    public void realizeModels() {
+
+    }
+
+    private String updateGoalSetupStatus() {
+        return null;
+    }
+
+    private String updateGoalRealizationStatus() {
+        return null;
+    }
+
+    private String updateGoalImplementationStatus() {
+        return null;
+    }
 
 }
