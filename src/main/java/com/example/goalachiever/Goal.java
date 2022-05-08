@@ -18,4 +18,14 @@ public class Goal {
 
     public GoalRealizationModel goalRealizationModel;
     public String goalRealizationStatus;
+
+    public GoalRealizationModel suggestRealizationModel() {
+        return null;
+    }
+
+    public GoalRealizationModel assignRealizationModel(GoalRealizationModel goalRealizationModel) {
+        return null;
+    }
+
+
 }
