@@ -25,24 +25,27 @@ public class Goal {
         return null;
     }
 
-    public GoalRealizationModel assignRealizationModel(List<GoalRealizationModel> goalRealizationModels) {
-        return null;
+    public void assignRealizationModel(List<GoalRealizationModel> goalRealizationModels) {
+
     }
 
     public void realizeModels() {
 
     }
 
-    private String updateGoalSetupStatus() {
-        return null;
+    public void implementModels() {
+
     }
 
-    private String updateGoalRealizationStatus() {
-        return null;
+    private float computeGoalSetupStatus() {
+        return 0.0f;
     }
 
-    private String updateGoalImplementationStatus() {
-        return null;
+    private float computeGoalRealizationStatus() {
+        return 0.0f;
     }
 
+    private float computeGoalImplementationStatus() {
+        return 0.0f;
+    }
 }
