@@ -11,7 +11,7 @@ public class Goal {
     public String goalTitle;
     public String goalDescription;
 
-    public List<FamilyMember> goalFamilyMembers;
+    public List<Beneficiary> goalFamilyMembers;
     public Date goalTargetDate;
     public Number goalTargetAmount;
     public String goalSetupStatus;
