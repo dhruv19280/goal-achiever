@@ -2,7 +2,7 @@ package com.example.goalachiever;
 
 import java.util.Date;
 
-public class FamilyMember {
+public class Beneficiary {
 
     public String firstName;
     public String lastName;

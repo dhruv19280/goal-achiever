@@ -1,0 +1,17 @@
+digraph "com.example:goal-achiever:jar:1.0-SNAPSHOT" { 
+	"com.example:goal-achiever:jar:1.0-SNAPSHOT" -> "org.controlsfx:controlsfx:jar:11.1.1:compile" ; 
+	"com.example:goal-achiever:jar:1.0-SNAPSHOT" -> "org.openjfx:javafx-controls:jar:19-ea+8:compile" ; 
+	"com.example:goal-achiever:jar:1.0-SNAPSHOT" -> "org.openjfx:javafx-fxml:jar:19-ea+8:compile" ; 
+	"com.example:goal-achiever:jar:1.0-SNAPSHOT" -> "org.openjfx:javafx-web:jar:19-ea+8:compile" ; 
+	"com.example:goal-achiever:jar:1.0-SNAPSHOT" -> "com.dlsc.formsfx:formsfx-core:jar:11.3.2:compile" ; 
+	"com.example:goal-achiever:jar:1.0-SNAPSHOT" -> "eu.hansolo:tilesfx:jar:11.48:compile" ; 
+	"org.openjfx:javafx-controls:jar:19-ea+8:compile" -> "org.openjfx:javafx-controls:jar:linux:19-ea+8:compile" ; 
+	"org.openjfx:javafx-controls:jar:19-ea+8:compile" -> "org.openjfx:javafx-graphics:jar:19-ea+8:compile" ; 
+	"org.openjfx:javafx-graphics:jar:19-ea+8:compile" -> "org.openjfx:javafx-graphics:jar:linux:19-ea+8:compile" ; 
+	"org.openjfx:javafx-graphics:jar:19-ea+8:compile" -> "org.openjfx:javafx-base:jar:19-ea+8:compile" ; 
+	"org.openjfx:javafx-base:jar:19-ea+8:compile" -> "org.openjfx:javafx-base:jar:linux:19-ea+8:compile" ; 
+	"org.openjfx:javafx-fxml:jar:19-ea+8:compile" -> "org.openjfx:javafx-fxml:jar:linux:19-ea+8:compile" ; 
+	"org.openjfx:javafx-web:jar:19-ea+8:compile" -> "org.openjfx:javafx-web:jar:linux:19-ea+8:compile" ; 
+	"org.openjfx:javafx-web:jar:19-ea+8:compile" -> "org.openjfx:javafx-media:jar:19-ea+8:compile" ; 
+	"org.openjfx:javafx-media:jar:19-ea+8:compile" -> "org.openjfx:javafx-media:jar:linux:19-ea+8:compile" ; 
+ } 
