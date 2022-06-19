@@ -37,15 +37,15 @@ public class Goal {
 
     }
 
-    private float computeGoalSetupStatus() {
+    public float computeGoalSetupStatus() {
         return 0.0f;
     }
 
-    private float computeGoalRealizationStatus() {
+    public float computeGoalRealizationStatus() {
         return 0.0f;
     }
 
-    private float computeGoalImplementationStatus() {
+    public float computeGoalImplementationStatus() {
         return 0.0f;
     }
 }
