@@ -14,4 +14,9 @@ public class Beneficiary {
     public String panNumber;
     public String aadharNumber;
     public String passportNumber;
+
+    public Integer retirementAge;
+    public Integer lifeExpectancy;
+
+    public RiskAppetite riskAppetite;
 }
