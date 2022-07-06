@@ -5,20 +5,24 @@ import java.util.List;
 
 public class Goal {
 
-    public GoalObjective goalType;
+    public GoalObjective goalObjective;
+    public GoalFrequency GoalFrequency;
     public GoalTenure goalTenure;
     public GoalPriority goalPriority;
     public String goalTitle;
     public String goalDescription;
 
-    public List<Beneficiary> goalFamilyMembers;
+    public List<Beneficiary> goalLinkedFamilyMembers;
+    public List<GoalRealizationModel> goalLinkedRealizationModels;
+    public List<Investment> goalLinkedInvestments;
+    public List<Liability> goalLinkedLiabilities;
+    
     public Date goalTargetDate;
-    public Number goalTargetAmount;
+    public Number goalTargetAmountPresentValue;
+    public Number goalTargetAmountFutureValue;
+    
     public String goalSetupStatus;
-
-    public List<GoalRealizationModel> goalRealizationModels;
     public String goalRealizationStatus;
-
     public String goalImplementationStatus;
 
     public List<GoalRealizationModel> suggestRealizationModels() {
