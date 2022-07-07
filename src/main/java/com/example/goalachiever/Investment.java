@@ -1,14 +1,11 @@
 package com.example.goalachiever;
 
-import java.util.Date;
+import java.util.List;
 
 public class Investment {
 
     public String investmentDescription;
     public GoalRealizationModelType investmentModelType;
-
-    public Date investmentPurchaseDate;
-    public Date investmentSaleDate;
 
     public Beneficiary investmentOwner1;
     public Beneficiary investmentOwner2;
@@ -16,10 +13,9 @@ public class Investment {
     public String investmentHouse;
     public String investmentProduct;
     public String investmentFolio;
-
-    public Number investmentPurchaseAmount;
-    public Number investmentSaleAmount;
+    public String investmentISIN;
+    public String investmentSymbol;
+    public String investmentExchange;
     
-    public Date investmentValueAsOn;
-    public Number investmentValueAmount;
+    public List<TransactionStructure> investmentTransactionHistory;
 }

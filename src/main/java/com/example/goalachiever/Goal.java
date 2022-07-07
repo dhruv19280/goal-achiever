@@ -6,7 +6,7 @@ import java.util.List;
 public class Goal {
 
     public GoalObjective goalObjective;
-    public GoalFrequency GoalFrequency;
+    public GoalFrequency goalFrequency;
     public GoalTenure goalTenure;
     public GoalPriority goalPriority;
     public String goalTitle;
@@ -17,9 +17,9 @@ public class Goal {
     public List<Investment> goalLinkedInvestments;
     public List<Liability> goalLinkedLiabilities;
     
-    public Date goalTargetDate;
-    public Number goalTargetAmountPresentValue;
-    public Number goalTargetAmountFutureValue;
+    public List<Date> goalTargetDatez;
+    public List<Number> goalTargetAmountPresentValues;
+    public List<Number> goalTargetAmountFutureValues;
     
     public String goalSetupStatus;
     public String goalRealizationStatus;

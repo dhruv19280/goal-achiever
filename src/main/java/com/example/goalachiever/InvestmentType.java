@@ -2,7 +2,8 @@ package com.example.goalachiever;
 
 public enum InvestmentType {
     EQUITY_SHARES,
-    EQUITY_MUTUAL_FUNDS,
+    DEBENTURES,    
+    CASH_AT_HAND,
     PPF_EPF_VPF_GPF,
     NATIONAL_PENSION_SCHEME,
     FIXED_DEPOSITS,
@@ -13,11 +14,11 @@ public enum InvestmentType {
     GOLD_MUTUAL_FUND,
     SOVERIGN_GOLD_BONDS,
     COMMODITIES,
-    DEBENTURES,
+    LIQUID_MUTUAL_FUNDS,
+    EQUITY_MUTUAL_FUNDS,
     DEBT_MUTUAL_FUNDS,
     REAL_ESTATE,
     BONDS_GOVT_TREASURY,
     SYSTEMATIC_INVESTMENT_PLAN,
-    CASH_AT_HAND,
     OTHER
 }
